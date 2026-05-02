@@ -1,20 +1,26 @@
 [init]
 defaultBranch = main
+
 [user]
 name = Willian Xavier
 email = wlrxavier@gmail.com
+
 [core]
 filemode = true
 compression = 0
 editor = vim
+
 [filter "lfs"]
 required = true
 clean = git-lfs clean -- %f
 smudge = git-lfs smudge -- %f
 process = git-lfs filter-process
+
 [color]
 ui = auto
+
 [pack]
 deltaCacheSize = 2047m
 packsizeLimit  = 2047m
 windowMemory   = 2047m
+
