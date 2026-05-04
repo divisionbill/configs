@@ -3,11 +3,10 @@ filetype plugin on
 filetype indent on
 
 " Enable syntax (required for comment detection)
-syntax enable
+syntax off
+colorscheme unokai
 
-colorscheme habamax
-
-set number
+"set number
 
 set shiftwidth=4
 set tabstop=4
@@ -36,5 +35,5 @@ highlight Constant    ctermfg=NONE guifg=NONE
 highlight Special     ctermfg=NONE guifg=NONE
 
 " Keep comments visible
-highlight Comment ctermfg=DarkGreen guifg=#5f875f
+highlight Comment ctermfg=LightGray guifg=#5f875f
 

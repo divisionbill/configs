@@ -14,3 +14,4 @@ alias ls='ls --color=auto'
 alias ll='ls -l'
 
 export EDITOR=vim
+export VCPKG_ROOT=/home/xavier/.local/share/vcpkg

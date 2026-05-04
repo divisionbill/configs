@@ -2,7 +2,6 @@
 set $mod Mod1
 set $term ghostty
 set $menu rofi -show drun
-set $browser firefox
 
 # workspaces
 set $ws1 "1"
@@ -21,6 +20,7 @@ bindsym $mod+Return exec $term
 bindsym $mod+0 exec $menu
 bindsym $mod+Shift+q kill
 bindsym $mod+Shift+r reload
+bindsym $mod+Shitf+f fullscreen toggle
 
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -36,11 +36,10 @@ bindsym $mod+9 workspace $ws9
 for_window [class=".*"] border pixel
 default_border none
 
-
 # startup
 exec --no-startup-id setxkbmap us -variant intl
 exec --no-startup-id i3-msg "workspace1; exec $term"
-exec --no-startup-id i3-msg "workspace9; exec $browser"
-exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+
+#exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
