@@ -20,7 +20,7 @@ bindsym $mod+Return exec $term
 bindsym $mod+0 exec $menu
 bindsym $mod+Shift+q kill
 bindsym $mod+Shift+r reload
-bindsym $mod+Shitf+f fullscreen toggle
+bindsym $mod+Shift+f fullscreen toggle
 
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
