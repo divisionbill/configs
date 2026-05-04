@@ -16,6 +16,8 @@ set incsearch
 set nowrap
 set showcmd
 
+set clipboard=unnamedplus
+
 " Cursor shapes
 let &t_SI = "\e[5 q" " Blinking bar for Insert mode
 let &t_SR = "\e[3 q" " Blinking underline for Replace mode

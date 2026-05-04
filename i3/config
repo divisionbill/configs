@@ -34,7 +34,7 @@ bindsym $mod+9 workspace $ws9
 
 # remove title bars (clean look)
 for_window [class=".*"] border pixel
-default_border none
+default_border pixel 0
 
 # startup
 exec --no-startup-id setxkbmap us -variant intl
