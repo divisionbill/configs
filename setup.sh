@@ -7,7 +7,8 @@ ln -s $(pwd)/tmux/.tmux.conf $HOME/.tmux.conf
 ln -s $(pwd)/git/.gitconfig  $HOME/.gitconfig
 
 #
-ln -s $(pwd)/kitty  $HOME/.config/
-ln -s $(pwd)/rofi   $HOME/.config/
-ln -s $(pwd)/hypr   $HOME/.config/
-ln -s $(pwd)/waybar $HOME/.config/
+ln -s $(pwd)/kitty      $HOME/.config/
+ln -s $(pwd)/rofi       $HOME/.config/
+ln -s $(pwd)/hypr       $HOME/.config/
+ln -s $(pwd)/waybar     $HOME/.config/
+ln -s $(pwd)/wallpapers $HOME/.config/
