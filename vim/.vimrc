@@ -4,7 +4,7 @@ filetype indent on
 
 " Enable syntax (required for comment detection)
 syntax off
-colorscheme unokai
+colorscheme habamax
 
 "set number
 
