@@ -1,6 +1,6 @@
 * {
     font-family: "JetBrains Mono", monospace;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 window#waybar {
@@ -50,7 +50,7 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #workspaces button {
@@ -96,6 +96,7 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #ffffff;
+    border-left: dashed rgba(120, 120, 120, 0.4) 1px;
 }
 
 #window,
