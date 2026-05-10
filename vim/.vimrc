@@ -23,6 +23,8 @@ let &t_SI = "\e[5 q" " Blinking bar for Insert mode
 let &t_SR = "\e[3 q" " Blinking underline for Replace mode
 let &t_EI = "\e[1 q" " Blinking block for Normal mode
 
+map gn :bnext<cr>
+map gp :bprevious<cr>
 " ---------------------------
 " Comments-only highlighting
 " ---------------------------
