@@ -5,12 +5,18 @@
     "height": 30,
     "spacing": 2,
     "modules-left": [
-        "hyprland/workspaces",
+        "niri/workspaces",
         "custom/media"
     ],
+
     "modules-center": [
-        "hyprland/window"
+        "niri/window"
     ],
+
+    "niri/workspaces": {
+//        "current-only": true,
+    },
+
     "modules-right": [
         "mpd",
         "pulseaudio",
@@ -22,6 +28,7 @@
         "clock",
         "tray"
     ],
+
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -31,6 +38,7 @@
             "unlocked": ""
         }
     },
+
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
         "format-disconnected": "Disconnected ",
@@ -91,6 +99,7 @@
         "power-saver": ""
       }
     },
+
     "network": {
         "format-ethernet": "{ipaddr}/{cidr}",
         "tooltip-format": "{ifname} via {gwaddr}",
@@ -98,6 +107,7 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
+
     "pulseaudio": {
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
@@ -116,6 +126,7 @@
         },
         "on-click": "pavucontrol"
     },
+
     "custom/media": {
         "format": "{icon} {text}",
         "return-type": "json",
@@ -129,3 +140,4 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     }
 }
+
